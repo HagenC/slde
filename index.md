@@ -1,6 +1,6 @@
-----
+---
 title       : Describing:"When Can I (legally) Drive" Shiny_app.
-subtitle    : Developing Data Products, Assignment week 4. 
+subtitle    : Developing Data Products, Assignment week 4.
 author      : HagenC
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -10,7 +10,8 @@ widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ext_widgets: {rCharts: [libraries/nvd3]}
---- 
+---
+
 
 ## Motivation
 
@@ -30,11 +31,6 @@ The alchohol blood level is calculated as: grams of alcohol / (body weight in Kg
 The body water fraction is 70% for males and 60% for females. 
 
 If we consider a person drinking 3 beers of 4.6 % alchohol the blood alcohol dependency on body weight and sex can be illustrated as below: 
-
-
-```
-## Loading required package: rCharts
-```
 
 
 <div id = 'chart1' class = 'rChart nvd3'></div>
@@ -842,3 +838,7 @@ Unfortunately, there are no measures of these phenomenons as we are not sure why
 So...
 
 Disclaimer:  This is only a rough estimate based on population averages and does not take into account existing disease states, drug interactions, or age.
+
+
+
+
